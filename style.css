@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(212, 45%, 89%);
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container{
+        width: 400px;                /* more reasonable card width */
+        height: 600px;
+        background-color: hsl(0, 0%, 100%); /* visible (white) card */
+        border-radius: 16px;
+        box-shadow: 0 10px 25px rgba(16,24,40,0.08);
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        padding: 20px;
+        /* box-shadow: 0 10px 25px rgba(16,24,40,0.08); */
+}
+
+.qr_image{
+    width: 100%;
+    max-width: 336px;
+    border-radius: 12px;
+    display: block;
+    margin-bottom: 24px;
+}
+
+.head{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+}
